@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"log"
 	"os"
-	"github.com/amunnelly/soccer/connectdb"
+	"github.com/amunnelly/soccer/dbconnect"
 	"strconv"
 	"strings"
 )
