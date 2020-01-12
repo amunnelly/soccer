@@ -1,0 +1,186 @@
+{
+	"Arsenal": {
+		"first": "red",
+		"second": "white"
+	},
+	"Aston Villa": {
+		"first": "#640030",
+		"second": "#8fb8de"
+	},
+	"Birmingham": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Blackburn": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Blackpool": {
+		"first": "orange",
+		"second": "white"
+	},
+	"Bolton": {
+		"first": "white",
+		"second": "black"
+	},
+	"Bournemouth": {
+		"first": "red",
+		"second": "black"
+	},
+	"Brentford": {
+		"first": "red",
+		"second": "white"
+	},
+	"Brighton": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Bristol City": {
+		"first": "red",
+		"second": "white"
+	},
+	"Burnley": {
+		"first": "#640030",
+		"second": "#8fb8de"
+	},
+	"Cardiff": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Charlton": {
+		"first": "red",
+		"second": "blue"
+	},
+	"Chelsea": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Crystal Palace": {
+		"first": "red",
+		"second": "blue"
+	},
+	"Derby": {
+		"first": "white",
+		"second": "black"
+	},
+	"Everton": {
+		"first": "#004391",
+		"second": "white"
+	},
+	"Fulham": {
+		"first": "white",
+		"second": "black"
+	},
+	"Huddersfield": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Hull": {
+		"first": "orange",
+		"second": "black"
+	},
+	"Leeds": {
+		"first": "white",
+		"second": "yellow"
+	},
+	"Leicester": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Liverpool": {
+		"first": "red",
+		"second": "#009e93"
+	},
+	"Luton": {
+		"first": "red",
+		"second": "white"
+	},
+	"Man City": {
+		"first": "#a4c4e2",
+		"second": "#122544"
+	},
+	"Man United": {
+		"first": "red",
+		"second": "yellow"
+	},
+	"Middlesbrough": {
+		"first": "red",
+		"second": "white"
+	},
+	"Newcastle": {
+		"first": "black",
+		"second": "white"
+	},
+	"Norwich": {
+		"first": "yellow",
+		"second": "green"
+	},
+	"Notts Forest": {
+		"first": "red",
+		"second": "white"
+	},
+	"Portsmouth": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Preston North End": {
+		"first": "midnightblue",
+		"second": "white"
+	},
+	"QPR": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Reading": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Sheffield United": {
+		"first": "red",
+		"second": "white"
+	},
+	"Sheffield Wednesday": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Southampton": {
+		"first": "red",
+		"second": "white"
+	},
+	"Stoke": {
+		"first": "red",
+		"second": "white"
+	},
+	"Sunderland": {
+		"first": "red",
+		"second": "white"
+	},
+	"Swansea": {
+		"first": "white",
+		"second": "gold"
+	},
+	"Tottenham": {
+		"first": "darkblue",
+		"second": "white"
+	},
+	"Watford": {
+		"first": "yellow",
+		"second": "black"
+	},
+	"West Brom": {
+		"first": "darkblue",
+		"second": "white"
+	},
+	"West Ham": {
+		"first": "#640030",
+		"second": "#8fb8de"
+	},
+	"Wigan": {
+		"first": "blue",
+		"second": "white"
+	},
+	"Wolves": {
+		"first": "orange",
+		"second": "black"
+	}
+}

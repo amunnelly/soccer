@@ -1,0 +1,22 @@
+{{template "header.html"}}
+
+<body>
+    {{ template "navbar.html"}}
+    <div class='container'>
+        <h4> {{ .Title }} </h4>
+        <table class="table">
+        	<tr>
+        		<th>Team</th><th>Points</th><th>Goals For</th><th>Goals Against</th><th>Goal Difference</th>
+        	</tr>
+        {{range .Results }}
+        	<tr>
+        		<td>{{.Team}}</td>
+        		<td>{{.Points}}</td>
+        		<td>{{.GoalsFor}}</td>
+        		<td>{{.GoalsAgainst}}</td>
+        		<td>{{.GD}}</td>
+        	</tr>
+        {{- end}}
+    </table>
+    </div>
+</body>

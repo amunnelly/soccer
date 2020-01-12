@@ -1,0 +1,11 @@
+{{template "header.html"}}
+
+<body>
+    {{ template "navbar.html"}}
+    <div class='container'>
+        <h4>WIBBBLE WIBBLE WIBBLE.</h4>
+        {{range . }}
+        {{ . }}
+        {{- end}}
+    </div>
+</body>

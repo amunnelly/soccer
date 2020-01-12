@@ -1,0 +1,20 @@
+{{template "header.html"}}
+
+<body>
+  {{ template "navbar.html"}}
+  <div class='container'>
+    <h4>Choose a season to see each team's point-accumation over time.</h4>
+    {{range . }}
+    <div class="row">
+      {{range . }}
+      <div class="col">
+      {{$x := print "/graph?season=" .}}
+
+      <a href="{{$x}}">{{ . }}</a>
+      </div>
+        {{- end}}
+      </div>
+      {{- end}}
+    
+  </div>
+</body>

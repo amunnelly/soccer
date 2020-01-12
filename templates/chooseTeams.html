@@ -1,0 +1,18 @@
+{{template "header.html"}}
+
+<body>
+  {{ template "navbar.html"}}
+  <div class='container'>
+    <h4>Choose a team to see its points graph over its seasons in the English Premier League.</h4>
+    {{range . }}
+    <div class="row">
+      {{range . }}
+      <div class="col">
+      <a href="/teams/{{.}}">{{ . }}</a>
+      </div>
+        {{- end}}
+      </div>
+      {{- end}}
+    
+  </div>
+</body>
