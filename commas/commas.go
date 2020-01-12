@@ -2,20 +2,18 @@ package commas
 
 import (
 	"bufio"
+	"github.com/amunnelly/soccer/dbconnect"
 	"log"
 	"os"
-	"github.com/amunnelly/soccer/dbconnect"
 	"strconv"
 	"strings"
 )
-
-
 
 // CompileCsv takes a slice of Table objects and creates a slice of
 // strings, where each string is make up from the individual Table
 // fields, seperated by commas. `WriteToFile()` is then called with this slice
 // of strings as its paramater.
-func CompileCsv(season []connectdb.PointsGdTable) {
+func CompileCsv(season []dbconnect.PointsGdTable) {
 	var holder = []string{}
 	headings := "Team,Points,GD,GF,GA\n"
 	// hbytes := []byte(headings)
